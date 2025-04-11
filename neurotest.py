@@ -324,7 +324,7 @@ def show_dashboard():
 # Funkcja do wyświetlania strefy wiedzy
 def show_strefa_wiedzy():
     st.header("Strefa Wiedzy")
-    st.write("Tutaj będą się znajdować teksty i materiały pomocnicze do nauki neuroprzywództwa.")
+    st.write("Tutaj będą się znajdować teksty i materiały i wiele innych mateira ł w pomocnicze do nauki neuroprzywództwa.")
     # Można dodać więcej treści edukacyjnych
 
 # Funkcja do wyświetlania quizu
