@@ -187,6 +187,7 @@ import random
 import sqlite3
 import hashlib
 import pandas as pd
+import streamlit.components.v1 as components
 
 # Kolory i tło
 background_color = "#ffffff"
@@ -322,10 +323,22 @@ def show_dashboard():
             show_results()
 
 # Funkcja do wyświetlania strefy wiedzy
+# def show_strefa_wiedzy():
+#     st.header("Strefa Wiedzy")
+#     st.write("Tutaj będą się znajdować teksty i materiały i wiele innych mateira ł w pomocnicze do nauki neuroprzywództwa.")
+#     # Można dodać więcej treści edukacyjnych
 def show_strefa_wiedzy():
     st.header("Strefa Wiedzy")
-    st.write("Tutaj będą się znajdować teksty i materiały i wiele innych mateira ł w pomocnicze do nauki neuroprzywództwa.")
-    # Można dodać więcej treści edukacyjnych
+    st.write("Poniżej znajduje się prezentacja: *Strach przed stratą*")
+
+    components.html("""
+    <iframe loading="lazy" style="position: relative; width: 100%; height: 600px; max-height: 80vh; border: none; border-radius: 8px; padding: 0; margin: 0; overflow: hidden;"
+        src="https://www.canva.com/design/DAGkT7vi9Zc/gEWkSeNv-f9ZaIlas5aUrw/view?embed" 
+        allowfullscreen="allowfullscreen" allow="fullscreen">
+    </iframe>
+    <p><a href="https://www.canva.com/design/DAGkT7vi9Zc/gEWkSeNv-f9ZaIlas5aUrw/view?utm_content=DAGkT7vi9Zc&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">1.Strach przed stratą - life-mil.docx</a> autorstwa Paweł Książyk</p>
+    """, height=650)
+
 
 # Funkcja do wyświetlania quizu
 def show_quiz():
