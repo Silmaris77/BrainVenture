@@ -337,7 +337,7 @@ def show_strefa_wiedzy():
         allowfullscreen="allowfullscreen" allow="fullscreen">
     </iframe>
     <p><a href="https://www.canva.com/design/DAGkT7vi9Zc/gEWkSeNv-f9ZaIlas5aUrw/view?utm_content=DAGkT7vi9Zc&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">1.Strach przed stratą - life-mil.docx</a> autorstwa Paweł Książyk</p>
-    """, height=650)
+    """, height=950)
 
 
 # Funkcja do wyświetlania quizu
